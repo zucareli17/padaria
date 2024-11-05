@@ -1,0 +1,119 @@
+	body{
+		font-family: "Josefin Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 350;
+		font-style: normal;
+		color: #000000;
+	}
+
+	.logo {
+		width: 110px;
+	}
+
+	header{
+		background-color: #FFD48F;
+		padding: 20px 0;
+		height: 90px;
+	}
+
+	.caixa{
+		position:relative;
+		width: 940px;
+		margin: 0 auto;
+	}
+	#nav-menu {
+		margin: 0;
+		width: 100%;
+	}
+	nav{
+		position: absolute;
+		top: 50px;
+		right: 0;
+		vertical-align: middle;
+	}
+
+	nav li{
+		display: inline-block;
+		list-style: none; 
+		margin: 0 0 0 10px;
+	}
+	nav a{
+		text-transform: uppercase;
+		color: #000000;
+		font-weight: bold;
+		font-size: 22px;
+		text-decoration:none;
+	}
+	nav a:hover{
+		color: rgb(255, 101, 63);
+		text-decoration: underline;
+	}
+
+	.car {
+		width: 22px;
+	}
+
+	.capa {
+		width: 100%;
+	}
+
+.principal{
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	padding: 20px;
+
+}
+
+.imgpadoca{
+	width: 500px;
+	border-radius: 20px;
+	margin-right: 200px;
+}
+
+.second {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.pao {
+	width: 300px;
+	border-radius: 20px;
+	margin-left: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.textinho {
+	display: table-cell;
+	vertical-align: middle;
+}	
+
+.textinho2 {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.prodbanner{
+	width: 100%;
+}
+
+.rodrod {
+	width: 100%;
+}
+
+footer{
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px;
+}		
+.copyright{
+	color:black;
+	font-size: 13px;
+	margin: 20px 0 0;
+	align-content: center;
+}
+.en{
+	width: 60px;
+}

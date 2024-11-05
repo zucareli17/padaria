@@ -1,0 +1,148 @@
+body{
+	font-family: "Josefin Sans", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 350;
+  	font-style: normal;
+	color: #000000;
+}
+
+.logo {
+	width: 110px;
+}
+
+header{
+	background-color: #FFD48F;
+	padding: 20px 0;
+	height: 90px;
+}
+
+.caixa{
+	position:relative;
+	width: 940px;
+	margin: 0 auto;
+}
+#nav-menu {
+	margin: 0;
+	width: 100%;
+}
+nav{
+	position: absolute;
+	top: 50px;
+	right: 0;
+	vertical-align: middle;
+}
+
+nav li{
+	display: inline-block;
+	list-style: none; 
+	margin: 0 0 0 10px;
+}
+nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration:none;
+}
+nav a:hover{
+	color: rgb(255, 101, 63);
+	text-decoration: underline;
+}
+
+.carr {
+	width: 22px;
+}
+
+.capa {
+	width: 100%;
+}
+
+.itens{
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}		
+.itens li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding:  20px 20px;
+	box-sizing: border-box;
+	border: 2px solid #FFD48F;
+	border-radius: 10px;
+	margin-bottom: 1em;
+}	
+.itens li:hover {
+	border-color: rgb(255, 101, 63);	
+}
+.itens li:hover h2{
+    font-size:20px;
+}
+.itens h2{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+.name{
+	margin: 5px;
+	color: black;
+}
+.one{
+	width: 220px;
+	text-decoration: none;
+}		
+.car{
+	width: 220px;
+}		
+.han{
+	width: 220px;
+}										
+.tayo{
+	width: 220px;
+}			
+.dile{
+	width: 220px;
+}		
+.ans{
+	width: 220px;
+}	
+
+.prodbanner{
+	width: 100%;
+}
+
+.rodrod {
+	width: 100%;
+}
+
+.botcarr {
+	width: 45px;
+	background-color: #FFD48F;
+	border-radius: 8px;
+	border-color: white;
+}
+
+.carrinho{
+	width: 25px;
+}
+
+footer{
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px;
+}		
+.copyright{
+	color:black;
+	font-size: 13px;
+	margin: 20px 0 0;
+	align-content: center;
+}
+.en{
+	width: 60px;
+}
